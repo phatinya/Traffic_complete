@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.phatinya.traffic.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg100">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/h1"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_gravity="left|center_horizontal"
+        tools:ignore="RtlHardcoded">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+            android:background="#34a7c9f0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:layout_marginTop="150dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/about_me"
+            android:onClick="ClickAboutMe"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:padding="0dp"
+            tools:ignore="SpUsage" />
+    </LinearLayout>
+
+</LinearLayout>

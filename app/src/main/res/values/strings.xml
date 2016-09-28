@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Traffic</string>
+    <string name="title">ป้ายจราจร ต้องรู้</string>
+    <string name="test">ทดสอบ</string>
+    <string name="about_me">About Me</string>
+
+</resources>
